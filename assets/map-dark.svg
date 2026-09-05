@@ -1,42 +1,42 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1000 360" width="1000" height="360" role="img" aria-label="A node map of the account: four named public repositories and eleven unlisted private ones, across three layers">
 <defs><pattern id="scanm" width="3" height="3" patternUnits="userSpaceOnUse">
-    <rect width="3" height="1" fill="#000000" opacity="0.34"/>
+    <rect width="3" height="1" fill="#000000" opacity="0.24"/>
   </pattern></defs>
 <rect width="1000" height="360" fill="#08080a"/>
 <text x="28" y="40" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, DejaVu Sans Mono, monospace" font-size="10.5" fill="#8b8890" textLength="81" lengthAdjust="spacing">THE WIRED</text>
-<text x="972" y="40" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, DejaVu Sans Mono, monospace" font-size="10.5" fill="#57555e" text-anchor="end" textLength="196.79999999999998" lengthAdjust="spacing">04 visible · 11 unlisted</text>
-<line x1="28" y1="56" x2="972" y2="56" stroke="#1e1e25" stroke-width="1"/>
+<text x="972" y="40" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, DejaVu Sans Mono, monospace" font-size="10.5" fill="#615f6a" text-anchor="end" textLength="196.79999999999998" lengthAdjust="spacing">04 visible · 11 unlisted</text>
+<line x1="28" y1="56" x2="972" y2="56" stroke="#26262e" stroke-width="1"/>
   <g>
-    <text x="28" y="121" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, DejaVu Sans Mono, monospace" font-size="9.5" fill="#57555e" opacity="0.75" textLength="60.8" lengthAdjust="spacing">research</text>
-    <line x1="112" y1="118" x2="972" y2="118" stroke="#1e1e25" stroke-width="1" stroke-dasharray="1 5" opacity="0.7"/>
+    <text x="28" y="121" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, DejaVu Sans Mono, monospace" font-size="9.5" fill="#615f6a" opacity="0.75" textLength="60.8" lengthAdjust="spacing">research</text>
+    <line x1="112" y1="118" x2="972" y2="118" stroke="#26262e" stroke-width="1" stroke-dasharray="1 5" opacity="0.7"/>
   </g>
   <g>
-    <text x="28" y="211" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, DejaVu Sans Mono, monospace" font-size="9.5" fill="#57555e" opacity="0.75" textLength="53.199999999999996" lengthAdjust="spacing">systems</text>
-    <line x1="112" y1="208" x2="972" y2="208" stroke="#1e1e25" stroke-width="1" stroke-dasharray="1 5" opacity="0.7"/>
+    <text x="28" y="211" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, DejaVu Sans Mono, monospace" font-size="9.5" fill="#615f6a" opacity="0.75" textLength="53.199999999999996" lengthAdjust="spacing">systems</text>
+    <line x1="112" y1="208" x2="972" y2="208" stroke="#26262e" stroke-width="1" stroke-dasharray="1 5" opacity="0.7"/>
   </g>
   <g>
-    <text x="28" y="301" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, DejaVu Sans Mono, monospace" font-size="9.5" fill="#57555e" opacity="0.75" textLength="53.199999999999996" lengthAdjust="spacing">surface</text>
-    <line x1="112" y1="298" x2="972" y2="298" stroke="#1e1e25" stroke-width="1" stroke-dasharray="1 5" opacity="0.7"/>
+    <text x="28" y="301" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, DejaVu Sans Mono, monospace" font-size="9.5" fill="#615f6a" opacity="0.75" textLength="53.199999999999996" lengthAdjust="spacing">surface</text>
+    <line x1="112" y1="298" x2="972" y2="298" stroke="#26262e" stroke-width="1" stroke-dasharray="1 5" opacity="0.7"/>
   </g>
-  <path id="e0" d="M 250 118 Q 290 203 330 208" fill="none" stroke="#1e1e25" stroke-width="1"/>
-  <path id="e1" d="M 330 208 Q 310 293 290 298" fill="none" stroke="#1e1e25" stroke-width="1"/>
-  <path id="e2" d="M 290 298 Q 380 264 470 298" fill="none" stroke="#1e1e25" stroke-width="1"/>
-  <path id="e3" d="M 400 118 Q 435 199 470 208" fill="none" stroke="#1e1e25" stroke-width="1"/>
-  <path id="e4" d="M 470 208 Q 545 283 620 298" fill="none" stroke="#1e1e25" stroke-width="1"/>
-  <path id="e5" d="M 530 118 Q 575 197 620 208" fill="none" stroke="#1e1e25" stroke-width="1"/>
-  <path id="e6" d="M 780 208 Q 810 287 840 298" fill="none" stroke="#1e1e25" stroke-width="1"/>
-  <path id="e7" d="M 660 118 Q 720 193 780 208" fill="none" stroke="#1e1e25" stroke-width="1"/>
-  <circle cx="400" cy="118" r="3" fill="#57555e" opacity="0.6"></circle>
-  <circle cx="530" cy="118" r="3" fill="#57555e" opacity="0.6"><animate attributeName="opacity" values="0.6;0.15;0.6" dur="4.1s" repeatCount="indefinite"/></circle>
-  <circle cx="660" cy="118" r="3" fill="#57555e" opacity="0.6"></circle>
-  <circle cx="200" cy="208" r="3" fill="#57555e" opacity="0.6"></circle>
-  <circle cx="470" cy="208" r="3" fill="#57555e" opacity="0.6"></circle>
-  <circle cx="620" cy="208" r="3" fill="#57555e" opacity="0.6"><animate attributeName="opacity" values="0.6;0.15;0.6" dur="6.9s" repeatCount="indefinite"/></circle>
-  <circle cx="780" cy="208" r="3" fill="#57555e" opacity="0.6"></circle>
-  <circle cx="620" cy="298" r="3" fill="#57555e" opacity="0.6"></circle>
-  <circle cx="730" cy="298" r="3" fill="#57555e" opacity="0.6"></circle>
-  <circle cx="840" cy="298" r="3" fill="#57555e" opacity="0.6"><animate attributeName="opacity" values="0.6;0.15;0.6" dur="9.7s" repeatCount="indefinite"/></circle>
-  <circle cx="940" cy="298" r="3" fill="#57555e" opacity="0.6"></circle>
+  <path id="e0" d="M 250 118 Q 290 203 330 208" fill="none" stroke="#26262e" stroke-width="1"/>
+  <path id="e1" d="M 330 208 Q 310 293 290 298" fill="none" stroke="#26262e" stroke-width="1"/>
+  <path id="e2" d="M 290 298 Q 380 264 470 298" fill="none" stroke="#26262e" stroke-width="1"/>
+  <path id="e3" d="M 400 118 Q 435 199 470 208" fill="none" stroke="#26262e" stroke-width="1"/>
+  <path id="e4" d="M 470 208 Q 545 283 620 298" fill="none" stroke="#26262e" stroke-width="1"/>
+  <path id="e5" d="M 530 118 Q 575 197 620 208" fill="none" stroke="#26262e" stroke-width="1"/>
+  <path id="e6" d="M 780 208 Q 810 287 840 298" fill="none" stroke="#26262e" stroke-width="1"/>
+  <path id="e7" d="M 660 118 Q 720 193 780 208" fill="none" stroke="#26262e" stroke-width="1"/>
+  <circle cx="400" cy="118" r="3" fill="#615f6a" opacity="0.6"></circle>
+  <circle cx="530" cy="118" r="3" fill="#615f6a" opacity="0.6"><animate attributeName="opacity" values="0.6;0.15;0.6" dur="4.1s" repeatCount="indefinite"/></circle>
+  <circle cx="660" cy="118" r="3" fill="#615f6a" opacity="0.6"></circle>
+  <circle cx="200" cy="208" r="3" fill="#615f6a" opacity="0.6"></circle>
+  <circle cx="470" cy="208" r="3" fill="#615f6a" opacity="0.6"></circle>
+  <circle cx="620" cy="208" r="3" fill="#615f6a" opacity="0.6"><animate attributeName="opacity" values="0.6;0.15;0.6" dur="6.9s" repeatCount="indefinite"/></circle>
+  <circle cx="780" cy="208" r="3" fill="#615f6a" opacity="0.6"></circle>
+  <circle cx="620" cy="298" r="3" fill="#615f6a" opacity="0.6"></circle>
+  <circle cx="730" cy="298" r="3" fill="#615f6a" opacity="0.6"></circle>
+  <circle cx="840" cy="298" r="3" fill="#615f6a" opacity="0.6"><animate attributeName="opacity" values="0.6;0.15;0.6" dur="9.7s" repeatCount="indefinite"/></circle>
+  <circle cx="940" cy="298" r="3" fill="#615f6a" opacity="0.6"></circle>
   <circle r="2.6" fill="#d9a05b" opacity="0.9">
     <animateMotion dur="4.5s" begin="0s" repeatCount="indefinite" rotate="auto">
       <mpath href="#e0" xlink:href="#e0"/>
@@ -56,25 +56,25 @@
     <circle cx="250" cy="118" r="13" fill="none" stroke="#8a6535" stroke-width="1" opacity="0.4"/>
     <circle cx="250" cy="118" r="4.5" fill="#d9a05b"/>
     <text x="250" y="150" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, DejaVu Sans Mono, monospace" font-size="10.5" fill="#d8d4cb" text-anchor="middle" textLength="70.2" lengthAdjust="spacing">project-x</text>
-    <text x="250" y="164" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, DejaVu Sans Mono, monospace" font-size="8.5" fill="#57555e" text-anchor="middle" textLength="19.799999999999997" lengthAdjust="spacing">c++</text>
+    <text x="250" y="164" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, DejaVu Sans Mono, monospace" font-size="8.5" fill="#615f6a" text-anchor="middle" textLength="19.799999999999997" lengthAdjust="spacing">c++</text>
   </g>
   <g>
     <circle cx="330" cy="208" r="13" fill="none" stroke="#8a6535" stroke-width="1" opacity="0.4"/>
     <circle cx="330" cy="208" r="4.5" fill="#d9a05b"/>
     <text x="330" y="240" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, DejaVu Sans Mono, monospace" font-size="10.5" fill="#d8d4cb" text-anchor="middle" textLength="39" lengthAdjust="spacing">wired</text>
-    <text x="330" y="254" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, DejaVu Sans Mono, monospace" font-size="8.5" fill="#57555e" text-anchor="middle" textLength="26.4" lengthAdjust="spacing">rust</text>
+    <text x="330" y="254" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, DejaVu Sans Mono, monospace" font-size="8.5" fill="#615f6a" text-anchor="middle" textLength="26.4" lengthAdjust="spacing">rust</text>
   </g>
   <g>
     <circle cx="290" cy="298" r="13" fill="none" stroke="#8a6535" stroke-width="1" opacity="0.4"/>
     <circle cx="290" cy="298" r="4.5" fill="#d9a05b"/>
     <text x="290" y="330" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, DejaVu Sans Mono, monospace" font-size="10.5" fill="#d8d4cb" text-anchor="middle" textLength="54.6" lengthAdjust="spacing">navi-ui</text>
-    <text x="290" y="344" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, DejaVu Sans Mono, monospace" font-size="8.5" fill="#57555e" text-anchor="middle" textLength="66" lengthAdjust="spacing">typescript</text>
+    <text x="290" y="344" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, DejaVu Sans Mono, monospace" font-size="8.5" fill="#615f6a" text-anchor="middle" textLength="66" lengthAdjust="spacing">typescript</text>
   </g>
   <g>
     <circle cx="470" cy="298" r="13" fill="none" stroke="#8a6535" stroke-width="1" opacity="0.4"/>
     <circle cx="470" cy="298" r="4.5" fill="#d9a05b"/>
     <text x="470" y="330" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, DejaVu Sans Mono, monospace" font-size="10.5" fill="#d8d4cb" text-anchor="middle" textLength="46.8" lengthAdjust="spacing">dartio</text>
-    <text x="470" y="344" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, DejaVu Sans Mono, monospace" font-size="8.5" fill="#57555e" text-anchor="middle" textLength="66" lengthAdjust="spacing">typescript</text>
+    <text x="470" y="344" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, DejaVu Sans Mono, monospace" font-size="8.5" fill="#615f6a" text-anchor="middle" textLength="66" lengthAdjust="spacing">typescript</text>
   </g>
 <rect x="271" y="192" width="2" height="2" fill="#8b8890" opacity="0">
       <animate attributeName="opacity" values="0;0.55;0" dur="2.64s" begin="0.22s" repeatCount="indefinite"/>

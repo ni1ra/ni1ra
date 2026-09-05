@@ -1,43 +1,43 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1000 250" width="1000" height="250" role="img" aria-label="A system panel listing operator, station, languages, and current work">
 <defs><pattern id="scanp" width="3" height="3" patternUnits="userSpaceOnUse">
-    <rect width="3" height="1" fill="#000000" opacity="0.34"/>
+    <rect width="3" height="1" fill="#000000" opacity="0.24"/>
   </pattern></defs>
-<rect x="0.5" y="0.5" width="999" height="249" fill="#0e0e12" stroke="#1e1e25"/>
-<line x1="0" y1="32.5" x2="1000" y2="32.5" stroke="#1e1e25"/>
+<rect x="0.5" y="0.5" width="999" height="249" fill="#0e0e12" stroke="#26262e"/>
+<line x1="0" y1="32.5" x2="1000" y2="32.5" stroke="#26262e"/>
 <text x="18" y="21" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, DejaVu Sans Mono, monospace" font-size="10.5" fill="#8b8890" textLength="98.39999999999999" lengthAdjust="spacing">NAVI://ni1ra</text>
-<g fill="none" stroke="#1e1e25">
+<g fill="none" stroke="#26262e">
   <rect x="936.5" y="11.5" width="9" height="9"/>
   <rect x="952.5" y="11.5" width="9" height="9"/>
   <rect x="968.5" y="11.5" width="9" height="9"/>
 </g>
   <g>
-    <text x="28" y="68" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, DejaVu Sans Mono, monospace" font-size="11.5" fill="#57555e" textLength="68.8" lengthAdjust="spacing">operator</text>
-    <line x1="132" y1="64" x2="206" y2="64" stroke="#1e1e25" stroke-width="1" stroke-dasharray="1 4"/>
+    <text x="28" y="68" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, DejaVu Sans Mono, monospace" font-size="11.5" fill="#615f6a" textLength="68.8" lengthAdjust="spacing">operator</text>
+    <line x1="132" y1="64" x2="206" y2="64" stroke="#26262e" stroke-width="1" stroke-dasharray="1 4"/>
     <text x="220" y="68" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, DejaVu Sans Mono, monospace" font-size="11.5" fill="#d8d4cb" textLength="129" lengthAdjust="spacing">Andreas — ni1ra</text>
   </g>
   <g>
-    <text x="28" y="98" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, DejaVu Sans Mono, monospace" font-size="11.5" fill="#57555e" textLength="60.199999999999996" lengthAdjust="spacing">station</text>
-    <line x1="132" y1="94" x2="206" y2="94" stroke="#1e1e25" stroke-width="1" stroke-dasharray="1 4"/>
+    <text x="28" y="98" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, DejaVu Sans Mono, monospace" font-size="11.5" fill="#615f6a" textLength="60.199999999999996" lengthAdjust="spacing">station</text>
+    <line x1="132" y1="94" x2="206" y2="94" stroke="#26262e" stroke-width="1" stroke-dasharray="1 4"/>
     <text x="220" y="98" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, DejaVu Sans Mono, monospace" font-size="11.5" fill="#d8d4cb" textLength="275.2" lengthAdjust="spacing">windows 11 · ubuntu 24.04 (wsl2)</text>
   </g>
   <g>
-    <text x="28" y="128" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, DejaVu Sans Mono, monospace" font-size="11.5" fill="#57555e" textLength="77.39999999999999" lengthAdjust="spacing">languages</text>
-    <line x1="132" y1="124" x2="206" y2="124" stroke="#1e1e25" stroke-width="1" stroke-dasharray="1 4"/>
+    <text x="28" y="128" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, DejaVu Sans Mono, monospace" font-size="11.5" fill="#615f6a" textLength="77.39999999999999" lengthAdjust="spacing">languages</text>
+    <line x1="132" y1="124" x2="206" y2="124" stroke="#26262e" stroke-width="1" stroke-dasharray="1 4"/>
     <text x="220" y="128" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, DejaVu Sans Mono, monospace" font-size="11.5" fill="#d8d4cb" textLength="275.2" lengthAdjust="spacing">typescript · rust · c++ · python</text>
   </g>
   <g>
-    <text x="28" y="158" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, DejaVu Sans Mono, monospace" font-size="11.5" fill="#57555e" textLength="68.8" lengthAdjust="spacing">building</text>
-    <line x1="132" y1="154" x2="206" y2="154" stroke="#1e1e25" stroke-width="1" stroke-dasharray="1 4"/>
+    <text x="28" y="158" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, DejaVu Sans Mono, monospace" font-size="11.5" fill="#615f6a" textLength="68.8" lengthAdjust="spacing">building</text>
+    <line x1="132" y1="154" x2="206" y2="154" stroke="#26262e" stroke-width="1" stroke-dasharray="1 4"/>
     <text x="220" y="158" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, DejaVu Sans Mono, monospace" font-size="11.5" fill="#d8d4cb" textLength="430" lengthAdjust="spacing">learned-structure ai · market systems · interfaces</text>
   </g>
   <g>
-    <text x="28" y="188" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, DejaVu Sans Mono, monospace" font-size="11.5" fill="#57555e" textLength="68.8" lengthAdjust="spacing">protocol</text>
-    <line x1="132" y1="184" x2="206" y2="184" stroke="#1e1e25" stroke-width="1" stroke-dasharray="1 4"/>
+    <text x="28" y="188" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, DejaVu Sans Mono, monospace" font-size="11.5" fill="#615f6a" textLength="68.8" lengthAdjust="spacing">protocol</text>
+    <line x1="132" y1="184" x2="206" y2="184" stroke="#26262e" stroke-width="1" stroke-dasharray="1 4"/>
     <text x="220" y="188" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, DejaVu Sans Mono, monospace" font-size="11.5" fill="#d8d4cb" textLength="361.2" lengthAdjust="spacing">every line of code needs a reason to exist</text>
   </g>
 <g>
-  <text x="28" y="218" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, DejaVu Sans Mono, monospace" font-size="11.5" fill="#57555e" textLength="51.599999999999994" lengthAdjust="spacing">status</text>
-  <line x1="132" y1="214" x2="206" y2="214" stroke="#1e1e25" stroke-width="1" stroke-dasharray="1 4"/>
+  <text x="28" y="218" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, DejaVu Sans Mono, monospace" font-size="11.5" fill="#615f6a" textLength="51.599999999999994" lengthAdjust="spacing">status</text>
+  <line x1="132" y1="214" x2="206" y2="214" stroke="#26262e" stroke-width="1" stroke-dasharray="1 4"/>
   <circle cx="224" cy="214" r="3.5" fill="#d9a05b">
     <animate attributeName="opacity" values="1;0.2;1" dur="2.6s" repeatCount="indefinite"/>
   </circle>
