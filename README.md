@@ -33,7 +33,8 @@
 
 <br>
 
-I build things that hold state and keep running after I close the laptop.
+Windows 11 with Ubuntu 24.04 under WSL2. TypeScript, Rust, C++, Python. I build
+things that hold state and keep running after I close the laptop.
 
 Right now that means an intelligence that grows its own internal structure instead
 of inheriting someone else's checkpoint, a scheduled analyst that reads energy
