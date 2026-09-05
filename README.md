@@ -21,12 +21,12 @@
 
 <sub>OPEN NODES</sub>
 
-|  |  |  |
-| :-- | :-- | :-- |
-| [**project-x**](https://github.com/ni1ra/project-x) | an organism that grows its intelligence from its own learned structure | `c++` |
-| [**navi-ui**](https://github.com/ni1ra/navi-ui) | blueprint-driven React theme and component system | `typescript` |
-| [**dartio**](https://github.com/ni1ra/dartio) | darts scoring, practice, AI, and multiplayer | `typescript` |
-| [**wired**](https://github.com/ni1ra/wired) | systems research — archived, kept honest | `rust` |
+<p>
+  <a href="https://github.com/ni1ra/project-x"><b>project-x</b></a>&nbsp; <sub>c++ &nbsp;·&nbsp; an organism that grows its intelligence from its own learned structure</sub><br>
+  <a href="https://github.com/ni1ra/navi-ui"><b>navi-ui</b></a>&nbsp; <sub>typescript &nbsp;·&nbsp; blueprint-driven React theme and component system</sub><br>
+  <a href="https://github.com/ni1ra/dartio"><b>dartio</b></a>&nbsp; <sub>typescript &nbsp;·&nbsp; darts scoring, practice, AI, and multiplayer</sub><br>
+  <a href="https://github.com/ni1ra/wired"><b>wired</b></a>&nbsp; <sub>rust &nbsp;·&nbsp; systems research, archived and kept honest</sub>
+</p>
 
 <details>
 <summary><sub>DESCEND — LAYER 13</sub></summary>
