@@ -33,7 +33,7 @@ export function panel(t) {
 
 <rect x="0.5" y="0.5" width="${W - 1}" height="${H - 1}" fill="${t.panel}" stroke="${t.rule}"/>
 <line x1="0" y1="32.5" x2="${W}" y2="32.5" stroke="${t.rule}"/>
-${mono('NAVI://ni1ra', { x: 18, y: 21, size: 10.5, track: 8.2, fill: t.mid })}
+${mono('ni1ra // station', { x: 18, y: 21, size: 10.5, track: 8.2, fill: t.mid })}
 <g fill="none" stroke="${t.rule}">
   <rect x="936.5" y="11.5" width="9" height="9"/>
   <rect x="952.5" y="11.5" width="9" height="9"/>

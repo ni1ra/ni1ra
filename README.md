@@ -8,18 +8,18 @@
 -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ni1ra/ni1ra/main/assets/hero-dark.svg?v=2">
-  <img alt="ni1ra — a terminal connecting to the Wired" src="https://raw.githubusercontent.com/ni1ra/ni1ra/main/assets/hero-light.svg?v=2" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ni1ra/ni1ra/main/assets/hero-dark.svg?v=3">
+  <img alt="ni1ra — a terminal bringing a network link up beneath power lines" src="https://raw.githubusercontent.com/ni1ra/ni1ra/main/assets/hero-light.svg?v=3" width="100%">
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ni1ra/ni1ra/main/assets/panel-dark.svg?v=2">
-  <img alt="System panel: operator Andreas — ni1ra; station Windows 11 and Ubuntu 24.04 under WSL2; languages TypeScript, Rust, C++, Python; building learned-structure AI, market systems, interfaces; protocol: every line of code needs a reason to exist; status connected" src="https://raw.githubusercontent.com/ni1ra/ni1ra/main/assets/panel-light.svg?v=2" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ni1ra/ni1ra/main/assets/panel-dark.svg?v=3">
+  <img alt="System panel: operator Andreas — ni1ra; station Windows 11 and Ubuntu 24.04 under WSL2; languages TypeScript, Rust, C++, Python; building learned-structure AI, market systems, interfaces; protocol: every line of code needs a reason to exist; status connected" src="https://raw.githubusercontent.com/ni1ra/ni1ra/main/assets/panel-light.svg?v=3" width="100%">
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ni1ra/ni1ra/main/assets/map-dark.svg?v=2">
-  <img alt="Node map across three layers — research, systems, surface — holding four named public repositories and eleven unlisted private ones" src="https://raw.githubusercontent.com/ni1ra/ni1ra/main/assets/map-light.svg?v=2" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ni1ra/ni1ra/main/assets/map-dark.svg?v=3">
+  <img alt="Node map across three tiers — research, systems, surface — holding four named public repositories and eleven unlisted private ones" src="https://raw.githubusercontent.com/ni1ra/ni1ra/main/assets/map-light.svg?v=3" width="100%">
 </picture>
 
 <p>
@@ -30,7 +30,7 @@
 </p>
 
 <details>
-<summary><sub>DESCEND — LAYER 13</sub></summary>
+<summary><sub>DESCEND</sub></summary>
 
 <br>
 
@@ -57,4 +57,4 @@ Rules I do not break:
 
 <br>
 
-<sub>Everything above is a hand-written animated SVG built by <a href="src/">src/</a> and served from this repository — no badge services, no stat cards, no third-party requests. Two palettes: <em>the Wired</em> after dark, <em>present day</em> in the light.</sub>
+<sub>Everything above is a hand-written animated SVG built by <a href="src/">src/</a> and served from this repository — no badge services, no stat cards, no third-party requests. Two palettes built from one generator, so the dark and the light can never drift apart.</sub>

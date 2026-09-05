@@ -1,11 +1,11 @@
-// The two worlds of Serial Experiments Lain, reduced to two colour sets.
-// `wired` is the machine side: near-black with an amber CRT bloom.
-// `present` is the daylight side: warm bone paper, hard ink, muted sun.
+// Two colour sets, not one set inverted.
+// `night` is the machine lit only by itself: near-black under an amber CRT bloom.
+// `day` is the room it sits in: warm bone paper, hard ink, sun through a window.
 // Every generated asset ships in both so GitHub's <picture> can switch on
 // prefers-color-scheme without either variant looking like a tinted copy.
 
 export const themes = {
-  wired: {
+  night: {
     id: 'dark',
     bg: '#08080a',
     panel: '#0e0e12',
@@ -22,7 +22,7 @@ export const themes = {
     rollOpacity: 0.05,
     bloomOpacity: 0.13,
   },
-  present: {
+  day: {
     id: 'light',
     bg: '#efece4',
     panel: '#e7e3d9',

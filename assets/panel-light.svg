@@ -4,7 +4,7 @@
   </pattern></defs>
 <rect x="0.5" y="0.5" width="999" height="249" fill="#e7e3d9" stroke="#cec8ba"/>
 <line x1="0" y1="32.5" x2="1000" y2="32.5" stroke="#cec8ba"/>
-<text x="18" y="21" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, DejaVu Sans Mono, monospace" font-size="10.5" fill="#6e6a62" textLength="98.39999999999999" lengthAdjust="spacing">NAVI://ni1ra</text>
+<text x="18" y="21" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, DejaVu Sans Mono, monospace" font-size="10.5" fill="#6e6a62" textLength="131.2" lengthAdjust="spacing">ni1ra // station</text>
 <g fill="none" stroke="#cec8ba">
   <rect x="936.5" y="11.5" width="9" height="9"/>
   <rect x="952.5" y="11.5" width="9" height="9"/>

@@ -4,8 +4,8 @@ const W = 1000, H = 360;
 
 // Three bands, deepest first. Named nodes are repositories anyone can open;
 // the dark nodes are the private ones — present, countable, unreadable. That
-// asymmetry is the honest shape of the account and it is also the point of
-// the show, so it is drawn rather than explained.
+// asymmetry is the honest shape of the account, so it is drawn rather than
+// written out.
 const BANDS = [
   { label: 'research', y: 118 },
   { label: 'systems', y: 208 },
@@ -73,11 +73,11 @@ export function map(t) {
     <line x1="112" y1="${y}" x2="972" y2="${y}" stroke="${t.rule}" stroke-width="1" stroke-dasharray="1 5" opacity="0.7"/>
   </g>`).join('\n  ');
 
-  return `${svgOpen(W, H, 'A node map of the account: four named public repositories and eleven unlisted private ones, across three layers')}
+  return `${svgOpen(W, H, 'A node map of the account: four named public repositories and eleven unlisted private ones, across three tiers')}
 <defs>${scanlines(t, 'scanm')}</defs>
 
 <rect width="${W}" height="${H}" fill="${t.bg}"/>
-${mono('THE WIRED', { x: 28, y: 40, size: 10.5, track: 9, fill: t.mid })}
+${mono('TOPOLOGY', { x: 28, y: 40, size: 10.5, track: 9, fill: t.mid })}
 ${mono('04 visible · 11 unlisted', { x: 972, y: 40, size: 10.5, track: 8.2, fill: t.dim, anchor: 'end' })}
 <line x1="28" y1="56" x2="972" y2="56" stroke="${t.rule}" stroke-width="1"/>
 

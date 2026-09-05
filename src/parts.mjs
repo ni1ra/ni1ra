@@ -44,7 +44,7 @@ export function scanlines(t, id = 'scan') {
   </pattern>`;
 }
 
-/** The warm blur every Lain interior is lit by. */
+/** The warm blur a CRT throws onto the room around it. */
 export function bloom(t, { cx, cy, r, id = 'bloom' }) {
   return `<radialGradient id="${id}" cx="${cx}" cy="${cy}" r="${r}" gradientUnits="userSpaceOnUse">
     <stop offset="0" stop-color="${t.amber}" stop-opacity="${t.bloomOpacity}"/>

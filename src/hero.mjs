@@ -3,8 +3,7 @@ import { mono, scanlines, bloom, rollGradient, rollRect, static_, rng, svgOpen }
 const W = 1000, H = 300;
 
 // The wires. Four spans sagging in from off-frame and terminating on the
-// insulators of a single pole — the one Lain image that carries the whole show
-// without a character in it. Control points sit below both endpoints so the
+// insulators of a single pole. Control points sit below both endpoints so the
 // span droops instead of arcing, and the widths vary so the bundle reads as
 // depth rather than as four copies of one line.
 const POLE_X = 886;
@@ -15,8 +14,8 @@ const WIRES = [
   { d: 'M -20 110 Q 440 176 922 74', w: 1.0 },
 ];
 
-const CMD = '> navi --connect --layer 07';
-const ECHO = 'present day. present time.';
+const CMD = '> link --up --iface eth0';
+const ECHO = 'no packets lost since 2012';
 
 const TITLE_X = 64, TITLE_Y = 196, TITLE_SIZE = 72, TITLE_TRACK = 52;
 const BOOT_SIZE = 12.5, BOOT_TRACK = 9.2;
@@ -39,7 +38,7 @@ export function hero(t) {
       + `</line>`;
   }
 
-  return `${svgOpen(W, H, 'ni1ra — a terminal connecting to the Wired')}
+  return `${svgOpen(W, H, 'ni1ra — a terminal bringing a network link up beneath power lines')}
 <defs>
   ${scanlines(t)}
   ${bloom(t, { cx: 860, cy: 36, r: 520 })}

@@ -1,9 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1000 360" width="1000" height="360" role="img" aria-label="A node map of the account: four named public repositories and eleven unlisted private ones, across three layers">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1000 360" width="1000" height="360" role="img" aria-label="A node map of the account: four named public repositories and eleven unlisted private ones, across three tiers">
 <defs><pattern id="scanm" width="3" height="3" patternUnits="userSpaceOnUse">
     <rect width="3" height="1" fill="#000000" opacity="0.24"/>
   </pattern></defs>
 <rect width="1000" height="360" fill="#08080a"/>
-<text x="28" y="40" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, DejaVu Sans Mono, monospace" font-size="10.5" fill="#8b8890" textLength="81" lengthAdjust="spacing">THE WIRED</text>
+<text x="28" y="40" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, DejaVu Sans Mono, monospace" font-size="10.5" fill="#8b8890" textLength="72" lengthAdjust="spacing">TOPOLOGY</text>
 <text x="972" y="40" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, DejaVu Sans Mono, monospace" font-size="10.5" fill="#615f6a" text-anchor="end" textLength="196.79999999999998" lengthAdjust="spacing">04 visible · 11 unlisted</text>
 <line x1="28" y1="56" x2="972" y2="56" stroke="#26262e" stroke-width="1"/>
   <g>
