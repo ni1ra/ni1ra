@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1000 250" width="1000" height="250" role="img" aria-label="A system panel listing operator, station, languages, and current work">
+<defs><pattern id="scanp" width="3" height="3" patternUnits="userSpaceOnUse">
+    <rect width="3" height="1" fill="#3a352c" opacity="0.09"/>
+  </pattern></defs>
+<rect x="0.5" y="0.5" width="999" height="249" fill="#e7e3d9" stroke="#cec8ba"/>
+<line x1="0" y1="32.5" x2="1000" y2="32.5" stroke="#cec8ba"/>
+<text x="18" y="21" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, DejaVu Sans Mono, monospace" font-size="10.5" fill="#6e6a62" textLength="98.39999999999999" lengthAdjust="spacing">NAVI://ni1ra</text>
+<g fill="none" stroke="#cec8ba">
+  <rect x="936.5" y="11.5" width="9" height="9"/>
+  <rect x="952.5" y="11.5" width="9" height="9"/>
+  <rect x="968.5" y="11.5" width="9" height="9"/>
+</g>
+  <g>
+    <text x="28" y="68" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, DejaVu Sans Mono, monospace" font-size="11.5" fill="#9a9488" textLength="68.8" lengthAdjust="spacing">operator</text>
+    <line x1="132" y1="64" x2="206" y2="64" stroke="#cec8ba" stroke-width="1" stroke-dasharray="1 4"/>
+    <text x="220" y="68" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, DejaVu Sans Mono, monospace" font-size="11.5" fill="#1c1b19" textLength="129" lengthAdjust="spacing">Andreas — ni1ra</text>
+  </g>
+  <g>
+    <text x="28" y="98" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, DejaVu Sans Mono, monospace" font-size="11.5" fill="#9a9488" textLength="60.199999999999996" lengthAdjust="spacing">station</text>
+    <line x1="132" y1="94" x2="206" y2="94" stroke="#cec8ba" stroke-width="1" stroke-dasharray="1 4"/>
+    <text x="220" y="98" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, DejaVu Sans Mono, monospace" font-size="11.5" fill="#1c1b19" textLength="275.2" lengthAdjust="spacing">windows 11 · ubuntu 24.04 (wsl2)</text>
+  </g>
+  <g>
+    <text x="28" y="128" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, DejaVu Sans Mono, monospace" font-size="11.5" fill="#9a9488" textLength="77.39999999999999" lengthAdjust="spacing">languages</text>
+    <line x1="132" y1="124" x2="206" y2="124" stroke="#cec8ba" stroke-width="1" stroke-dasharray="1 4"/>
+    <text x="220" y="128" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, DejaVu Sans Mono, monospace" font-size="11.5" fill="#1c1b19" textLength="275.2" lengthAdjust="spacing">typescript · rust · c++ · python</text>
+  </g>
+  <g>
+    <text x="28" y="158" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, DejaVu Sans Mono, monospace" font-size="11.5" fill="#9a9488" textLength="68.8" lengthAdjust="spacing">building</text>
+    <line x1="132" y1="154" x2="206" y2="154" stroke="#cec8ba" stroke-width="1" stroke-dasharray="1 4"/>
+    <text x="220" y="158" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, DejaVu Sans Mono, monospace" font-size="11.5" fill="#1c1b19" textLength="430" lengthAdjust="spacing">learned-structure ai · market systems · interfaces</text>
+  </g>
+  <g>
+    <text x="28" y="188" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, DejaVu Sans Mono, monospace" font-size="11.5" fill="#9a9488" textLength="68.8" lengthAdjust="spacing">protocol</text>
+    <line x1="132" y1="184" x2="206" y2="184" stroke="#cec8ba" stroke-width="1" stroke-dasharray="1 4"/>
+    <text x="220" y="188" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, DejaVu Sans Mono, monospace" font-size="11.5" fill="#1c1b19" textLength="361.2" lengthAdjust="spacing">every line of code needs a reason to exist</text>
+  </g>
+<g>
+  <text x="28" y="218" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, DejaVu Sans Mono, monospace" font-size="11.5" fill="#9a9488" textLength="51.599999999999994" lengthAdjust="spacing">status</text>
+  <line x1="132" y1="214" x2="206" y2="214" stroke="#cec8ba" stroke-width="1" stroke-dasharray="1 4"/>
+  <circle cx="224" cy="214" r="3.5" fill="#a9701f">
+    <animate attributeName="opacity" values="1;0.2;1" dur="2.6s" repeatCount="indefinite"/>
+  </circle>
+  <text x="236" y="218" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, DejaVu Sans Mono, monospace" font-size="11.5" fill="#1c1b19" textLength="77.39999999999999" lengthAdjust="spacing">connected</text>
+</g>
+<rect x="253" y="67" width="2" height="2" fill="#6e6a62" opacity="0">
+      <animate attributeName="opacity" values="0;0.55;0" dur="6.73s" begin="1.78s" repeatCount="indefinite"/>
+    </rect><rect x="709" y="130" width="2" height="2" fill="#6e6a62" opacity="0">
+      <animate attributeName="opacity" values="0;0.55;0" dur="3.55s" begin="5.70s" repeatCount="indefinite"/>
+    </rect><rect x="891" y="27" width="2" height="2" fill="#6e6a62" opacity="0">
+      <animate attributeName="opacity" values="0;0.55;0" dur="5.80s" begin="5.22s" repeatCount="indefinite"/>
+    </rect><rect x="596" y="191" width="2" height="2" fill="#6e6a62" opacity="0">
+      <animate attributeName="opacity" values="0;0.55;0" dur="2.27s" begin="0.14s" repeatCount="indefinite"/>
+    </rect><rect x="447" y="245" width="2" height="2" fill="#6e6a62" opacity="0">
+      <animate attributeName="opacity" values="0;0.55;0" dur="4.61s" begin="3.98s" repeatCount="indefinite"/>
+    </rect><rect x="933" y="77" width="2" height="2" fill="#6e6a62" opacity="0">
+      <animate attributeName="opacity" values="0;0.55;0" dur="6.45s" begin="2.41s" repeatCount="indefinite"/>
+    </rect>
+<rect width="1000" height="250" fill="url(#scanp)"/>
+</svg>

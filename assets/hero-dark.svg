@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1000 300" width="1000" height="300" role="img" aria-label="ni1ra — a terminal connecting to the Wired">
+<defs>
+  <pattern id="scan" width="3" height="3" patternUnits="userSpaceOnUse">
+    <rect width="3" height="1" fill="#000000" opacity="0.34"/>
+  </pattern>
+  <radialGradient id="bloom" cx="860" cy="36" r="520" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#d9a05b" stop-opacity="0.13"/>
+    <stop offset="1" stop-color="#d9a05b" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="roll" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#000000" stop-opacity="0.05"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0"/>
+    </linearGradient>
+  <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="2.4"/>
+  </filter>
+  <clipPath id="typed">
+    <rect x="60" y="238" width="0" height="22">
+      <animate attributeName="width" from="0" to="252.4" begin="0.45s" dur="1.05s" fill="freeze"/>
+    </rect>
+  </clipPath>
+</defs>
+<rect width="1000" height="300" fill="#08080a"/>
+<rect width="1000" height="300" fill="url(#bloom)"/>
+<g stroke="#57555e" fill="none" opacity="0.8">
+  <path d="M -20 30 Q 420 92 842 40" stroke-width="1.3"/>
+  <path d="M -20 56 Q 420 118 850 74" stroke-width="1.1"/>
+  <path d="M -20 84 Q 440 150 930 40" stroke-width="0.9"/>
+  <path d="M -20 110 Q 440 176 922 74" stroke-width="1"/>
+</g>
+<g fill="#57555e" opacity="0.9">
+  <!-- Tapered so it stands rather than floats: wider at the base, running off frame. -->
+  <path d="M 882 8 L 890 8 L 893 300 L 879 300 Z"/>
+  <rect x="838" y="44" width="96" height="3.5"/>
+  <rect x="846" y="78" width="80" height="3.5"/>
+  <rect x="839" y="37" width="5" height="7"/>
+  <rect x="927" y="37" width="5" height="7"/>
+  <rect x="847" y="71" width="5" height="7"/>
+  <rect x="919" y="71" width="5" height="7"/>
+</g>
+<!-- One packet crossing the span, left to right, never arriving twice. -->
+<path d="M -20 84 Q 440 150 930 40" fill="none" stroke="#d9a05b" stroke-width="2" stroke-linecap="round"
+      stroke-dasharray="22 4000" filter="url(#glow)" opacity="0.95">
+  <animate attributeName="stroke-dashoffset" from="4000" to="0" dur="7s" repeatCount="indefinite"/>
+</path>
+<text x="64" y="196" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, DejaVu Sans Mono, monospace" font-size="72" fill="#d8d4cb" textLength="260" lengthAdjust="spacing">ni1ra</text>
+<rect x="342" y="166" width="11" height="11" fill="#a03434">
+  <animate attributeName="opacity" values="0.12;1;0.12" dur="3.4s" repeatCount="indefinite"/>
+</rect>
+<line x1="64" y1="222" x2="64" y2="222" stroke="#1e1e25" stroke-width="1">
+  <animate attributeName="x2" from="64" to="840" begin="0.2s" dur="0.9s" fill="freeze"/>
+</line>
+<g clip-path="url(#typed)">
+  <text x="64" y="252" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, DejaVu Sans Mono, monospace" font-size="12.5" fill="#8b8890" textLength="248.39999999999998" lengthAdjust="spacing">&gt; navi --connect --layer 07</text>
+</g>
+<rect x="64" y="241" width="8" height="14" fill="#d9a05b" opacity="0">
+  <animate attributeName="x" from="64" to="312.4" begin="0.45s" dur="1.05s" fill="freeze"/>
+  <animate attributeName="opacity" from="0" to="1" begin="0.45s" dur="0.01s" fill="freeze"/>
+  <animate attributeName="opacity" values="1;1;0;0" dur="1.06s" begin="1.6s" repeatCount="indefinite"/>
+</rect>
+<g opacity="0">
+  <animate attributeName="opacity" from="0" to="1" begin="1.95s" dur="0.85s" fill="freeze"/>
+  <text x="64" y="276" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, DejaVu Sans Mono, monospace" font-size="12.5" fill="#d9a05b" opacity="0.85" textLength="239.2" lengthAdjust="spacing">present day. present time.</text>
+</g>
+<line x1="604" y1="278" x2="604" y2="270" stroke="#8a6535" stroke-width="2" opacity="0.42"></line><line x1="611" y1="278" x2="611" y2="273" stroke="#8a6535" stroke-width="2" opacity="0.42"></line><line x1="618" y1="278" x2="618" y2="274" stroke="#8a6535" stroke-width="2" opacity="0.42"><animate attributeName="y2" values="274;275;274" dur="3.56s" repeatCount="indefinite"/></line><line x1="625" y1="278" x2="625" y2="274" stroke="#8a6535" stroke-width="2" opacity="0.42"></line><line x1="632" y1="278" x2="632" y2="257" stroke="#8a6535" stroke-width="2" opacity="0.42"></line><line x1="639" y1="278" x2="639" y2="259" stroke="#8a6535" stroke-width="2" opacity="0.42"></line><line x1="646" y1="278" x2="646" y2="274" stroke="#8a6535" stroke-width="2" opacity="0.42"></line><line x1="653" y1="278" x2="653" y2="269" stroke="#8a6535" stroke-width="2" opacity="0.42"><animate attributeName="y2" values="269;275;269" dur="2.47s" repeatCount="indefinite"/></line><line x1="660" y1="278" x2="660" y2="256" stroke="#8a6535" stroke-width="2" opacity="0.42"></line><line x1="667" y1="278" x2="667" y2="254" stroke="#8a6535" stroke-width="2" opacity="0.42"></line><line x1="674" y1="278" x2="674" y2="255" stroke="#8a6535" stroke-width="2" opacity="0.42"></line><line x1="681" y1="278" x2="681" y2="266" stroke="#8a6535" stroke-width="2" opacity="0.42"></line><line x1="688" y1="278" x2="688" y2="273" stroke="#8a6535" stroke-width="2" opacity="0.42"><animate attributeName="y2" values="273;275;273" dur="3.91s" repeatCount="indefinite"/></line><line x1="695" y1="278" x2="695" y2="265" stroke="#8a6535" stroke-width="2" opacity="0.42"></line><line x1="702" y1="278" x2="702" y2="258" stroke="#8a6535" stroke-width="2" opacity="0.42"></line><line x1="709" y1="278" x2="709" y2="261" stroke="#8a6535" stroke-width="2" opacity="0.42"></line><line x1="716" y1="278" x2="716" y2="272" stroke="#8a6535" stroke-width="2" opacity="0.42"></line><line x1="723" y1="278" x2="723" y2="254" stroke="#8a6535" stroke-width="2" opacity="0.42"><animate attributeName="y2" values="254;266;254" dur="3.97s" repeatCount="indefinite"/></line><line x1="730" y1="278" x2="730" y2="271" stroke="#8a6535" stroke-width="2" opacity="0.42"></line><line x1="737" y1="278" x2="737" y2="265" stroke="#8a6535" stroke-width="2" opacity="0.42"></line><line x1="744" y1="278" x2="744" y2="261" stroke="#8a6535" stroke-width="2" opacity="0.42"></line><line x1="751" y1="278" x2="751" y2="254" stroke="#8a6535" stroke-width="2" opacity="0.42"></line><line x1="758" y1="278" x2="758" y2="263" stroke="#8a6535" stroke-width="2" opacity="0.42"><animate attributeName="y2" values="263;275;263" dur="2.54s" repeatCount="indefinite"/></line><line x1="765" y1="278" x2="765" y2="263" stroke="#8a6535" stroke-width="2" opacity="0.42"></line><line x1="772" y1="278" x2="772" y2="269" stroke="#8a6535" stroke-width="2" opacity="0.42"></line><line x1="779" y1="278" x2="779" y2="263" stroke="#8a6535" stroke-width="2" opacity="0.42"></line><line x1="786" y1="278" x2="786" y2="257" stroke="#8a6535" stroke-width="2" opacity="0.42"></line><line x1="793" y1="278" x2="793" y2="270" stroke="#8a6535" stroke-width="2" opacity="0.42"><animate attributeName="y2" values="270;275;270" dur="2.02s" repeatCount="indefinite"/></line><line x1="800" y1="278" x2="800" y2="268" stroke="#8a6535" stroke-width="2" opacity="0.42"></line><line x1="807" y1="278" x2="807" y2="270" stroke="#8a6535" stroke-width="2" opacity="0.42"></line><line x1="814" y1="278" x2="814" y2="271" stroke="#8a6535" stroke-width="2" opacity="0.42"></line><line x1="821" y1="278" x2="821" y2="261" stroke="#8a6535" stroke-width="2" opacity="0.42"></line><line x1="828" y1="278" x2="828" y2="257" stroke="#8a6535" stroke-width="2" opacity="0.42"><animate attributeName="y2" values="257;269;257" dur="1.86s" repeatCount="indefinite"/></line><line x1="835" y1="278" x2="835" y2="254" stroke="#8a6535" stroke-width="2" opacity="0.42"></line><line x1="842" y1="278" x2="842" y2="260" stroke="#8a6535" stroke-width="2" opacity="0.42"></line><line x1="849" y1="278" x2="849" y2="254" stroke="#8a6535" stroke-width="2" opacity="0.42"></line><line x1="856" y1="278" x2="856" y2="273" stroke="#8a6535" stroke-width="2" opacity="0.42"></line><line x1="863" y1="278" x2="863" y2="257" stroke="#8a6535" stroke-width="2" opacity="0.42"><animate attributeName="y2" values="257;269;257" dur="1.93s" repeatCount="indefinite"/></line>
+<rect x="243" y="1" width="2" height="2" fill="#8b8890" opacity="0">
+      <animate attributeName="opacity" values="0;0.55;0" dur="6.14s" begin="2.23s" repeatCount="indefinite"/>
+    </rect><rect x="47" y="248" width="2" height="2" fill="#8b8890" opacity="0">
+      <animate attributeName="opacity" values="0;0.55;0" dur="4.67s" begin="0.28s" repeatCount="indefinite"/>
+    </rect><rect x="173" y="202" width="2" height="2" fill="#8b8890" opacity="0">
+      <animate attributeName="opacity" values="0;0.55;0" dur="4.09s" begin="4.49s" repeatCount="indefinite"/>
+    </rect><rect x="174" y="291" width="2" height="2" fill="#8b8890" opacity="0">
+      <animate attributeName="opacity" values="0;0.55;0" dur="3.72s" begin="2.22s" repeatCount="indefinite"/>
+    </rect><rect x="618" y="180" width="2" height="2" fill="#8b8890" opacity="0">
+      <animate attributeName="opacity" values="0;0.55;0" dur="2.29s" begin="2.96s" repeatCount="indefinite"/>
+    </rect><rect x="656" y="71" width="2" height="2" fill="#8b8890" opacity="0">
+      <animate attributeName="opacity" values="0;0.55;0" dur="2.67s" begin="3.66s" repeatCount="indefinite"/>
+    </rect><rect x="243" y="198" width="2" height="2" fill="#8b8890" opacity="0">
+      <animate attributeName="opacity" values="0;0.55;0" dur="3.85s" begin="1.12s" repeatCount="indefinite"/>
+    </rect><rect x="840" y="259" width="2" height="2" fill="#8b8890" opacity="0">
+      <animate attributeName="opacity" values="0;0.55;0" dur="4.54s" begin="5.82s" repeatCount="indefinite"/>
+    </rect><rect x="674" y="269" width="2" height="2" fill="#8b8890" opacity="0">
+      <animate attributeName="opacity" values="0;0.55;0" dur="4.71s" begin="0.95s" repeatCount="indefinite"/>
+    </rect><rect x="884" y="237" width="2" height="2" fill="#8b8890" opacity="0">
+      <animate attributeName="opacity" values="0;0.55;0" dur="2.24s" begin="2.09s" repeatCount="indefinite"/>
+    </rect><rect x="143" y="296" width="2" height="2" fill="#8b8890" opacity="0">
+      <animate attributeName="opacity" values="0;0.55;0" dur="3.14s" begin="2.34s" repeatCount="indefinite"/>
+    </rect><rect x="557" y="44" width="2" height="2" fill="#8b8890" opacity="0">
+      <animate attributeName="opacity" values="0;0.55;0" dur="5.19s" begin="3.17s" repeatCount="indefinite"/>
+    </rect>
+<rect width="1000" height="300" fill="url(#scan)"/>
+<rect x="0" y="0" width="1000" height="135" fill="url(#roll)">
+    <animateTransform attributeName="transform" type="translate" from="0 -135" to="0 300" dur="9s" repeatCount="indefinite"/>
+  </rect>
+</svg>
