@@ -1,0 +1,22 @@
+name: Profile assets
+
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7.0.1
+      - uses: actions/setup-node@v7.0.0
+        with:
+          node-version: 24
+      - run: node src/build.mjs
+      - name: Verify committed assets match the generator
+        run: git diff --exit-code -- assets/
