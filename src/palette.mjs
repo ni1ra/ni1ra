@@ -1,46 +1,17 @@
-// Two colour sets, not one set inverted.
-// `night` is the machine lit only by itself: near-black under an amber CRT bloom.
-// `day` is the room it sits in: warm bone paper, hard ink, sun through a window.
-// Every generated asset ships in both so GitHub's <picture> can switch on
-// prefers-color-scheme without either variant looking like a tinted copy.
-
+// The graphic follows the visitor's theme; all essential profile copy is HTML.
 export const themes = {
-  night: {
-    id: 'dark',
-    bg: '#08080a',
-    panel: '#0e0e12',
-    rule: '#26262e',
-    dim: '#615f6a',
-    mid: '#8b8890',
-    text: '#d8d4cb',
-    amber: '#d9a05b',
-    amberSoft: '#8a6535',
-    red: '#a03434',
-    // Scanline and roll-bar washes read as shadow on dark, so they are black.
-    wash: '#000000',
-    washOpacity: 0.24,
-    rollOpacity: 0.05,
-    bloomOpacity: 0.13,
+  dark: {
+    bg: '#090b0e',
+    text: '#f0efec',
+    line: '#5c646d',
+    accent: '#e98958',
+    glow: '#bc562e',
   },
-  day: {
-    id: 'light',
-    bg: '#efece4',
-    panel: '#e7e3d9',
-    rule: '#cec8ba',
-    dim: '#9a9488',
-    mid: '#6e6a62',
-    text: '#1c1b19',
-    amber: '#a9701f',
-    amberSoft: '#c2a173',
-    red: '#8c2c2c',
-    wash: '#3a352c',
-    washOpacity: 0.09,
-    rollOpacity: 0.035,
-    bloomOpacity: 0.10,
+  light: {
+    bg: '#f5f3ee',
+    text: '#171b20',
+    line: '#92918d',
+    accent: '#a7411c',
+    glow: '#d89f77',
   },
 };
-
-// No @font-face survives inside an SVG rendered as an <img>, so text is drawn
-// with whatever monospace the viewer already has. See mono() in parts.mjs for
-// how layout is kept identical anyway.
-export const MONO = 'ui-monospace, SFMono-Regular, Menlo, Consolas, DejaVu Sans Mono, monospace';

@@ -1,20 +1,14 @@
-// Emits every asset in both themes from one source, so the dark and light
-// variants can never drift apart.
+// Both palettes share geometry. Relative README URLs let GitHub resolve assets
+// against the current branch, keeping previews and the live profile consistent.
 import { writeFileSync, mkdirSync } from 'node:fs';
 import { themes } from './palette.mjs';
 import { hero } from './hero.mjs';
-import { panel } from './panel.mjs';
-import { map } from './map.mjs';
 
 const out = new URL('../assets/', import.meta.url);
 mkdirSync(out, { recursive: true });
 
-const assets = { hero, panel, map };
-
-for (const [name, build] of Object.entries(assets)) {
-  for (const theme of Object.values(themes)) {
-    const file = new URL(`${name}-${theme.id}.svg`, out);
-    writeFileSync(file, build(theme).replace(/\n\s*\n/g, '\n') + '\n');
-    console.log('wrote', `assets/${name}-${theme.id}.svg`);
-  }
+for (const [name, theme] of Object.entries(themes)) {
+  const file = new URL(`profile-${name}.svg`, out);
+  writeFileSync(file, hero(theme) + '\n');
+  console.log('wrote', `assets/profile-${name}.svg`);
 }
