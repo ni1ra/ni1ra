@@ -9,8 +9,8 @@
 -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ni1ra/ni1ra/main/assets/header-dark.svg?v=1">
-  <img alt="ni1ra, written beneath power lines" src="https://raw.githubusercontent.com/ni1ra/ni1ra/main/assets/header-light.svg?v=1" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ni1ra/ni1ra/main/assets/header-dark.svg?v=2">
+  <img alt="ni1ra, written beneath power lines" src="https://raw.githubusercontent.com/ni1ra/ni1ra/main/assets/header-light.svg?v=2" width="100%">
 </picture>
 
 Hi, I'm Andreas. I write TypeScript, Rust, C++ and Python: mostly web apps,
