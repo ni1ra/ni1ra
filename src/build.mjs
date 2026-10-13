@@ -2,14 +2,12 @@
 // variants can never drift apart.
 import { writeFileSync, mkdirSync } from 'node:fs';
 import { themes } from './palette.mjs';
-import { hero } from './hero.mjs';
-import { panel } from './panel.mjs';
-import { map } from './map.mjs';
+import { header } from './header.mjs';
 
 const out = new URL('../assets/', import.meta.url);
 mkdirSync(out, { recursive: true });
 
-const assets = { hero, panel, map };
+const assets = { header };
 
 for (const [name, build] of Object.entries(assets)) {
   for (const theme of Object.values(themes)) {

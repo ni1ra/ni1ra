@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1000 290" width="1000" height="290" role="img" aria-label="ni1ra, written beneath power lines; a single packet travels along one wire">
+<defs>
+  <pattern id="scan" width="3" height="3" patternUnits="userSpaceOnUse">
+    <rect width="3" height="1" fill="#3a352c" opacity="0.09"/>
+  </pattern>
+  <radialGradient id="bloom" cx="860" cy="36" r="520" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#a9701f" stop-opacity="0.1"/>
+    <stop offset="1" stop-color="#a9701f" stop-opacity="0"/>
+  </radialGradient>
+  <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="2.4"/>
+  </filter>
+</defs>
+<rect width="1000" height="290" fill="#efece4"/>
+<rect width="1000" height="290" fill="url(#bloom)"/>
+<g stroke="#9a9488" fill="none" opacity="0.8">
+  <path d="M -20 30 Q 420 92 842 40" stroke-width="1.3"/>
+  <path d="M -20 56 Q 420 118 850 74" stroke-width="1.1"/>
+  <path d="M -20 84 Q 440 150 930 40" stroke-width="0.9"/>
+  <path d="M -20 110 Q 440 176 922 74" stroke-width="1"/>
+</g>
+<g fill="#9a9488" opacity="0.9">
+  <!-- Tapered so it stands rather than floats: wider at the base, running off frame. -->
+  <path d="M 882 8 L 890 8 L 893 290 L 879 290 Z"/>
+  <rect x="838" y="44" width="96" height="3.5"/>
+  <rect x="846" y="78" width="80" height="3.5"/>
+  <rect x="839" y="37" width="5" height="7"/>
+  <rect x="927" y="37" width="5" height="7"/>
+  <rect x="847" y="71" width="5" height="7"/>
+  <rect x="919" y="71" width="5" height="7"/>
+</g>
+<!-- One packet crossing the span, left to right: the only motion that repeats. -->
+<path d="M -20 84 Q 440 150 930 40" fill="none" stroke="#a9701f" stroke-width="2" stroke-linecap="round"
+      stroke-dasharray="22 4000" filter="url(#glow)" opacity="0.95">
+  <animate attributeName="stroke-dashoffset" from="4000" to="0" dur="7s" repeatCount="indefinite"/>
+</path>
+<text x="64" y="196" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, DejaVu Sans Mono, monospace" font-size="72" fill="#1c1b19" textLength="260" lengthAdjust="spacing">ni1ra</text>
+<line x1="64" y1="222" x2="64" y2="222" stroke="#cec8ba" stroke-width="1">
+  <animate attributeName="x2" from="64" to="840" begin="0.2s" dur="0.9s" fill="freeze"/>
+</line>
+<g opacity="0">
+  <animate attributeName="opacity" from="0" to="1" begin="0.6s" dur="0.8s" fill="freeze"/>
+  <text x="64" y="254" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, DejaVu Sans Mono, monospace" font-size="12.5" fill="#6e6a62" textLength="294.4" lengthAdjust="spacing">typescript · rust · c++ · python</text>
+</g>
+<rect width="1000" height="290" fill="url(#scan)"/>
+</svg>
