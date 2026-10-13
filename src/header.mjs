@@ -17,7 +17,7 @@ const WIRES = [
 const SUBTITLE = 'typescript · rust · c++ · python';
 
 const TITLE_X = 64, TITLE_Y = 196, TITLE_SIZE = 72, TITLE_TRACK = 52;
-const RULE_Y = 222, SUB_Y = 254, SUB_SIZE = 12.5, SUB_TRACK = 9.2;
+const RULE_Y = 222, SUB_Y = 254, SUB_SIZE = 15, SUB_TRACK = 11;
 
 export function header(t) {
   return `${svgOpen(W, H, 'ni1ra, written beneath power lines; a single packet travels along one wire')}
@@ -60,7 +60,7 @@ ${mono('ni1ra', { x: TITLE_X, y: TITLE_Y, size: TITLE_SIZE, track: TITLE_TRACK, 
 
 <g opacity="0">
   <animate attributeName="opacity" from="0" to="1" begin="0.6s" dur="0.8s" fill="freeze"/>
-  ${mono(SUBTITLE, { x: TITLE_X, y: SUB_Y, size: SUB_SIZE, track: SUB_TRACK, fill: t.mid })}
+  ${mono(SUBTITLE, { x: TITLE_X, y: SUB_Y, size: SUB_SIZE, track: SUB_TRACK, fill: t.text, opacity: 0.7 })}
 </g>
 
 <rect width="${W}" height="${H}" fill="url(#scan)"/>
